@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 375vh;
+    overflow-x: hidden;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    width: 193vh;
+    height: 50vh;
+    border-bottom: 2px solid white;
+    display: grid;
+    border: 1.5px solid black;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+    z-index: 1000;
+    transition: top 2s;
+}
+
+.video {
+    position: absolute;
+    width: 193vh;
+    height: 50vh;
+    object-fit: cover;
+}
+
+#container .nav-bar {
+    margin: 10vh 0vh 70vh;
+    position: absolute;
+    width: 193vh;
+    display: flex;
+    letter-spacing: 2px;
+    align-items: center;
+}
+
+.nav-bar .logo {
+    width: 13vh;
+    height: 13vh;
+    margin-top: 25vh;
+    margin-left: 86.5vh;
+    border-radius: 15vh;
+    box-shadow: 0px 0px 23px 2px #e8a8a8;
+}
+
+.nav-bar ul {
+    position: absolute;
+    margin: 23vh 20vh 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar ul li {
+    margin-left: 10vh;
+    font-size: 2.5vh;
+    letter-spacing: 2px;
+    gap: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    width: 14vh;
+    height: 3vh;
+    color: rgb(14, 12, 12);
+    font-weight: bold;
+    border-radius: 1vh;
+    background-color: rgba(255, 255, 255, 0.655);
+    padding: 6px 5px;
+    box-shadow: 0vh 45px 15px -18px #464141;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    transition: width 1s, height 1s;
+}
+
+.nav-bar ul li a:hover {
+    cursor: pointer;
+    width: 14.5vh;
+    height: 3.5vh;
+    border: 2px solid white;
+    border-radius: 1vh;
+    color: white;
+    box-shadow: 0vh 45px 15px -17px #ffffff;
+    background-color: rgba(76, 199, 223, 0.304);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.container2-body {
+    position: relative;
+    margin: 75vh 0vh;
+    width: 193vh;
+    height: 300vh;
+    background-color: #fcfcfcee;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+}
+
+ .container2-bg-img{
+    width: 193vh;
+    height: 300vh;
+    margin-top: 0vh;
+    filter: blur(5px);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    position: absolute;
+    margin-bottom: 10vh;
+    border-bottom: 2px solid rgb(250, 245, 245);
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-size: 4vh;
+    transition: text-shadow 3s, opacity 2s, margin 2s, font-size 2s;
+}
+
+.text h1 {
+    position: absolute;
+    font-size: 0vh;
+    color: white;
+    margin: -160vh 80vh 90vh;
+    transition: font-size 3s margin 3s;
+}
+
+.container2 {
+    position: absolute;
+    margin-top: 0vh;
+    width: 193vh;
+    height: 120vh;
+    background-color: #00000000;
+}
+
+.welcome-image-items {
+    width: 47vh;
+    height: 47vh;
+    border-radius: 21vh;
+}
+
+.welcome-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 44vh;
+    margin-left: 30vh;
+    width: 66%;
+    height: 47vh;
+    border-radius: 21vh;
+    background-color: rgba(43, 37, 37, 0.183);
+    box-shadow: 0px 4px 7px 13px rgba(228, 225, 225, 0.703);
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.welcome-text {
+    flex: 1;
+    width: 10vh;
+    margin-left: 20vh;
+}
+
+.welcome-text p-2 {
+    margin: 0px 10px;
+    font-size: 6vh;
+    line-height: 3;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.welcome-text p-1{
+    margin: 0vh 0vh;
+    font-size: 3vh;
+    line-height: 2;
+    color: #fefefe;
+    font-weight: bolder;
+}
+
+.welcome-container-2 {
+    position: relative;
+    margin: 39vh 30vh;
+    width: 66%;
+    height: 47vh;
+    border-radius: 21vh;
+    background-color: rgba(230, 222, 222, 0.05);
+    box-shadow: 0px 4px 7px 13px rgba(228, 225, 225, 0.703);
+    background-size: 100vh 193vh;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+}
+
+.welcome-text-2 {
+    flex: 1;
+    margin-top: -5vh;
+    margin-left: 10vh;
+}
+
+.welcome-text-2 p-4 {
+    margin: 0px 10px;
+    font-size: 6vh;
+    line-height: 3;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.welcome-text-2 p-3 {
+    margin: 0px 10px;
+    font-size: 3vh;
+    line-height: 2;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+
+.slider-container {
+    position: absolute;
+    margin-top: -375vh;
+    margin-left: 0vh;
+    background-repeat: no-repeat;
+    width: 193vh;
+    height: 45vh;
+    border: 1.5px solid rgb(255, 255, 255);
+    background-color: #1b1b19b3;
+    /* background-image: linear-gradient(to right, rgba(26, 84, 107, 0.893), rgba(36, 153, 186, 0.838), rgba(36, 153, 186, 0.838), rgba(36, 153, 186, 0.838), rgba(26, 84, 107, 0.893)); */
+}
+
+.slide-wrapper {
+    position: absolute;
+    padding: 5vh;
+    white-space: nowrap;
+    margin: 2vh 8vh;
+    width: 156vh;
+    height: 34vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+}
+
+.img-list {
+    display: flex;
+    /* Flexbox for horizontal alignment */
+    gap: 25px;
+    /* Add spacing between images */
+}
+
+.image-items {
+    width: 220px;
+    /* Set a fixed width for images */
+    height: 28vh;
+    /* Maintain aspect ratio */
+    border: 1.5px solid rgb(252, 252, 252);
+    padding: 0vh;
+    object-fit: cover;
+    /* Ensure the image fits within the box */
+    box-shadow: 0px 5px 20px rgb(235, 232, 232);
+    transition: transform 0.3s;
+}
+
+.image-items:hover {
+    transform: scale(1.2);
+    /* Slightly enlarge on hover */
+}
+
+
+
+#FullImageView {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#FullImage {
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.8);
+}
