@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    height: 75vh;
     overflow-x: hidden;
 }
 
@@ -86,4 +87,41 @@ body {
     background-color:rgba(76, 199, 223, 0.304) ;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+}
+
+h1{
+    position: absolute;
+    font-size: 5vh;
+    border-bottom: 1px solid black;
+    margin-top: -15vh;
+    margin-left: 70vh;
+    font-weight: bolder;
+    font-style: italic;
+}
+table {
+    box-shadow: 5vh -30px 20px 8px #464141ac;
+    -webkit-backdrop-filter: blur(5px);
+     backdrop-filter: blur(5px);
+    width: 75vh;
+    height: 65vh;
+    border-collapse: collapse;
+    margin-top: 60vh;
+    margin-left: 55vh;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+th {
+    background-color: #1addbdd2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f0a5f794;
 }

@@ -94,7 +94,7 @@ body {
 
 .container2-body {
     position: relative;
-    margin: 75vh 0vh;
+    margin: 50vh 0vh;
     width: 193vh;
     height: 300vh;
     background-color: #fcfcfcee;
@@ -104,14 +104,28 @@ body {
     overflow: hidden;
 }
 
- .container2-bg-img{
+.welcome{
+    position: absolute;
+    width: 50vh;
+    height: 20vh;
+    margin-top: -15vh;
+    margin-left: 120vh;
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    box-shadow: 0vh 20px 20px 2.5vh #423b3b6b;
+    padding: 2vh 4vh 35vh 4vh;
+
+    
+}
+
+ /*.container2-bg-img{
     width: 193vh;
     height: 300vh;
     margin-top: 0vh;
     filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
-
+*/
 h1 {
     position: absolute;
     margin-bottom: 10vh;
@@ -132,29 +146,31 @@ h1 {
 
 .container2 {
     position: absolute;
-    margin-top: 0vh;
-    width: 193vh;
-    height: 120vh;
-    background-color: #00000000;
+    margin-left: 3vh;
+    margin-top: -20vh;
+    width: 181vh;
+    height: 227vh;
+    /*border: 2px solid black;*/
+    background-color: #ffffff;
 }
 
 .welcome-image-items {
-    width: 47vh;
-    height: 47vh;
+    width: 40vh;
+    height: 40vh;
     border-radius: 21vh;
 }
 
-.welcome-container {
+.welcome-container-1 {
     position: relative;
     display: flex;
     align-items: center;
     justify-items: center;
-    margin-top: 44vh;
-    margin-left: 30vh;
-    width: 66%;
-    height: 47vh;
+    margin-top: 3vh;
+    margin-left: 1vh;
+    width: 105vh;
+    height: 40vh;
     border-radius: 21vh;
-    background-color: rgba(43, 37, 37, 0.183);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0px 4px 7px 13px rgba(228, 225, 225, 0.703);
     justify-content: space-evenly;
     align-content: space-around;
@@ -165,73 +181,57 @@ h1 {
 .welcome-text {
     flex: 1;
     width: 10vh;
-    margin-left: 20vh;
+    margin-left: 7vh;
+    margin-top: -4vh;
 }
-
-.welcome-text p-2 {
-    margin: 0px 10px;
-    font-size: 6vh;
-    line-height: 3;
-    color: #ffffff;
-    font-weight: bolder;
-}
-
 .welcome-text p-1{
     margin: 0vh 0vh;
     font-size: 3vh;
     line-height: 2;
-    color: #fefefe;
+    color: #3d3434;
     font-weight: bolder;
 }
 
 .welcome-container-2 {
     position: relative;
-    margin: 39vh 30vh;
-    width: 66%;
-    height: 47vh;
+    margin: 20vh 75vh;
+    width: 105vh;
+    height: 40vh;
     border-radius: 21vh;
-    background-color: rgba(230, 222, 222, 0.05);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0px 4px 7px 13px rgba(228, 225, 225, 0.703);
     background-size: 100vh 193vh;
     border-collapse: collapse;
     display: flex;
     align-items: center;
     justify-items: center;
+    align-content: space-around;
     overflow: hidden;
 }
 
 .welcome-text-2 {
     flex: 1;
-    margin-top: -5vh;
+    margin-top: -4vh;
     margin-left: 10vh;
 }
-
-.welcome-text-2 p-4 {
-    margin: 0px 10px;
-    font-size: 6vh;
-    line-height: 3;
-    color: #ffffff;
-    font-weight: bolder;
-}
-
 .welcome-text-2 p-3 {
-    margin: 0px 10px;
+    margin: 0px 0px;
     font-size: 3vh;
     line-height: 2;
-    color: #ffffff;
+    color: #423c3c;
     font-weight: bolder;
 }
 
 
 .slider-container {
     position: absolute;
-    margin-top: -375vh;
+    margin-top: -80vh;
     margin-left: 0vh;
     background-repeat: no-repeat;
     width: 193vh;
     height: 45vh;
     border: 1.5px solid rgb(255, 255, 255);
-    background-color: #1b1b19b3;
+    background-color: #ffffff;
     /* background-image: linear-gradient(to right, rgba(26, 84, 107, 0.893), rgba(36, 153, 186, 0.838), rgba(36, 153, 186, 0.838), rgba(36, 153, 186, 0.838), rgba(26, 84, 107, 0.893)); */
 }
 
@@ -258,9 +258,9 @@ h1 {
 }
 
 .image-items {
-    width: 220px;
+    width: 240px;
     /* Set a fixed width for images */
-    height: 28vh;
+    height: 30vh;
     /* Maintain aspect ratio */
     border: 1.5px solid rgb(252, 252, 252);
     padding: 0vh;
@@ -274,8 +274,6 @@ h1 {
     transform: scale(1.2);
     /* Slightly enlarge on hover */
 }
-
-
 
 #FullImageView {
     display: none;
