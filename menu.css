@@ -112,11 +112,13 @@ td {
     padding: 10px;
     text-align: center;
     font-style: italic;
+    font-size: 2vh;
 }
 
 th {
     background-color: #1addbdd2;
     font-weight: bold;
+    font-size: 2.5vh;
 }
 
 tr:nth-child(even) {
