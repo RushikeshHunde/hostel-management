@@ -50,33 +50,3 @@ var currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    const qrCodeReader = new Html5Qrcode("reader");
-
-    function onScanSuccess(decodedText, decodedResult) {
-        // Show the decoded text (or redirect)
-        document.getElementById("result").innerText = `Scanned: ${decodedText}`;
-        window.location.href = "https://hostel-management.com"; // Redirect to the scanned URL
-    }
-
-    function onScanError(error) {
-        // Handle scan error
-        console.error(`Scan error: ${error}`);
-    }
-
-    qrCodeReader.start(
-        { facingMode: "environment" }, // Use rear camera
-        {
-            fps: 10, // Scans per second
-            qrbox: { width: 250, height: 250 } // Size of the scanning area
-        },
-        onScanSuccess,
-        onScanError
-    ).catch(err => {
-        console.error(`Error starting scanner: ${err}`);
-    });
-});
-
-  
-
-
